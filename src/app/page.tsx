@@ -103,7 +103,7 @@ export default function Home() {
         {isEntrarOpen && <Entrar onClose={handleCloseEntrar} />}
 
         {/* Seção de Serviços */}
-        <section className="w-full bg-violet-600 py-8">
+        <section className="w-full bg-violet-600 py-8 space-y-4">
           <h1 className="text-white text-3xl font-bold text-center mb-6 sm:text-4xl">
             Nossos Serviços
           </h1>
